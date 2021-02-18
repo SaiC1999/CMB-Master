@@ -324,7 +324,7 @@ def theory(c_t_i):
         elif choice == 4 or choice == 5:
             M_inv = M_inv_o(window_cl_tp,LMAX)
         elif choice == 6:
-            M_inv == M_inv_o(window_cl_p,LMAX)
+            M_inv = M_inv_o(window_cl_p,LMAX)
         
 
     cl=hp.read_cl(cl_file)
